@@ -1,14 +1,5 @@
-[package]
-name = "cli-name"
-version = "0.1.0-beta"
-authors = [
-    "kubanychbekukairat@gmail.com"
-]
-edition = "2024"
-
-[dependencies]
-
 [workspace]
+resolver = "3"
 members = [
     "cli",
     "lib"
